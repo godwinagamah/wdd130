@@ -140,18 +140,18 @@ footer {
     align-items: center;
 }
 
-.adventure-container {
+.adventure {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
 
-.adventure-container figure {
+.adventure figure {
     flex: 1;
     text-align: center;
 }
 
-.adventure-container img {
+.adventure img {
     width: 100%;
     height: auto;
     display: block;
