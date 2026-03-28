@@ -16,6 +16,9 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
 
 body {
@@ -61,6 +64,8 @@ article {
     display: flex;
     gap: 15px;
     margin-top: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .socialmedia img {
@@ -118,6 +123,9 @@ article {
 nav ul {
     list-style-type: disc;
     margin-left: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -127,4 +135,24 @@ nav a {
 footer {
     border-top: 1px solid #ccc;
     margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adventure-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.adventure-container figure {
+    flex: 1;
+    text-align: center;
+}
+
+.adventure-container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
